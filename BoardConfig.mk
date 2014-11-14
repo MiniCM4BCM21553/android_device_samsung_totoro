@@ -27,8 +27,8 @@ TARGET_BOARD_PLATFORM 				:= bcm21553
 TARGET_BOOTLOADER_BOARD_NAME 			:= totoro
 
 # Kernel
-#TARGET_KERNEL_CONFIG				:= cyanogenmod_totoro_defconfig
-TARGET_PREBUILT_KERNEL				:= device/samsung/totoro/prebuilt/kernel
+TARGET_KERNEL_CONFIG				:= cyanogenmod_totoro_defconfig
+#TARGET_PREBUILT_KERNEL				:= device/samsung/totoro/prebuilt/kernel
 BOARD_KERNEL_BASE				:= 0x81600000
 BOARD_KERNEL_PAGESIZE				:= 4096
 BOARD_NAND_PAGE_SIZE				:= 4096 -s 128
